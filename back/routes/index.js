@@ -1,5 +1,6 @@
 const express = require('express');
 const logger = require('../lib/logger');
+const userRouter = require('./users');
 
 const router = express.Router();
 
@@ -8,6 +9,8 @@ router.get('/', (req, res, next) => {
   res.render('index', { title: 'Express' });
 });
 router.use('/auth', require('./auth'));
+
+router.use('/users', userRouter);
 
 // logTest
 router.get('/log-test', (req, res, next) => {

@@ -11,17 +11,16 @@ module.exports = () => {
     callbackURL: '/auth/kakao/callback',
   }, async (accessToken, refreshToken, profile, done) => {
     console.log('kakao profile', profile);
-    try {
+    try { // DB에서 가입이력 조사
       const exUser = await User.findOne({
-        where: { snsId: profile.id, provider: 'kakao' },
+        where: { snsId: String(profile.id), provider: 'kakao' }, // 형변환 String
       });
       if (exUser) {
         done(null, exUser);
       } else {
         const newUser = await User.create({
-
           email: profile._json && profile._json.kakao_account_email,
-          ncik: profile.displayName,
+          nick: profile.displayName,
           snsId: profile.id,
           provider: 'kakao',
         });

@@ -1,0 +1,12 @@
+2022-04-11 15:50:03.263[info] app start
+2022-04-11 15:50:03.738[info] DB connection success
+2022-04-11 15:50:03.761[info] Sequelize sync success
+2022-04-11 15:50:38.121[info] app start
+2022-04-11 15:50:38.502[info] DB connection success
+2022-04-11 15:50:38.532[info] Sequelize sync success
+2022-04-11 15:50:52.398[info] (user.reg.params) {"nick":"da","email":"accc"}
+2022-04-11 15:50:52.480[debug] (userService.reg) {"provider":"local","id":17,"nick":"da","email":"accc","updatedAt":"2022-04-11T06:50:52.402Z","createdAt":"2022-04-11T06:50:52.402Z","snsId":null,"deletedAt":null}
+2022-04-11 15:50:52.484[info] (user.reg.result) {"provider":"local","id":17,"nick":"da","email":"accc","updatedAt":"2022-04-11T06:50:52.402Z","createdAt":"2022-04-11T06:50:52.402Z","snsId":null,"deletedAt":null}
+2022-04-11 15:52:43.038[info] app start
+2022-04-11 15:52:43.296[info] DB connection success
+2022-04-11 15:52:43.323[info] Sequelize sync success

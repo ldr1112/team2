@@ -1,0 +1,61 @@
+2022-04-08 14:42:44.180[info] app start
+2022-04-08 14:42:44.632[info] DB connection success
+2022-04-08 14:42:44.652[info] Sequelize sync success
+2022-04-08 15:32:03.156[info] app start
+2022-04-08 15:32:03.399[info] DB connection success
+2022-04-08 15:32:03.416[info] Sequelize sync success
+2022-04-08 16:16:30.191[info] (user.reg.params) {"nick":"a","email":"abc"}
+2022-04-08 16:16:30.194[error] Error: Not allowed null (name, userid, password)
+2022-04-08 16:16:30.300[debug] (userService.reg) {"provider":"local","id":6,"nick":"a","email":"abc","updatedAt":"2022-04-08T07:16:30.198Z","createdAt":"2022-04-08T07:16:30.198Z","snsId":null,"deletedAt":null}
+2022-04-08 16:16:30.303[info] (user.reg.result) {"provider":"local","id":6,"nick":"a","email":"abc","updatedAt":"2022-04-08T07:16:30.198Z","createdAt":"2022-04-08T07:16:30.198Z","snsId":null,"deletedAt":null}
+2022-04-08 16:17:57.853[info] (user.reg.params) {"nick":"a","email":"abc"}
+2022-04-08 16:17:57.856[error] Error: Not allowed null (name, userid, password)
+2022-04-08 16:17:57.948[error] (userService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "users_email_key" 고유 제약 조건을 위반함
+2022-04-08 16:18:04.063[info] (user.reg.params) {"nick":"a","email":"abc"}
+2022-04-08 16:18:04.065[error] Error: Not allowed null (name, userid, password)
+2022-04-08 16:18:04.071[error] (userService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "users_email_key" 고유 제약 조건을 위반함
+2022-04-08 16:18:23.021[info] (user.reg.params) {"nick":"a","email":"abc"}
+2022-04-08 16:18:23.022[error] Error: Not allowed null (name, userid, password)
+2022-04-08 16:18:23.095[error] (userService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "users_email_key" 고유 제약 조건을 위반함
+2022-04-08 16:19:02.937[info] (user.reg.params) {"nick":"a","email":"abcd"}
+2022-04-08 16:19:02.938[error] Error: Not allowed null (name, userid, password)
+2022-04-08 16:19:03.100[debug] (userService.reg) {"provider":"local","id":10,"nick":"a","email":"abcd","updatedAt":"2022-04-08T07:19:02.940Z","createdAt":"2022-04-08T07:19:02.940Z","snsId":null,"deletedAt":null}
+2022-04-08 16:19:03.103[info] (user.reg.result) {"provider":"local","id":10,"nick":"a","email":"abcd","updatedAt":"2022-04-08T07:19:02.940Z","createdAt":"2022-04-08T07:19:02.940Z","snsId":null,"deletedAt":null}
+2022-04-08 16:19:38.515[info] (user.reg.params) {"nick":"a","email":"abcde"}
+2022-04-08 16:19:38.516[error] Error: Not allowed null (name, userid, password)
+2022-04-08 16:19:38.590[debug] (userService.reg) {"provider":"local","id":11,"nick":"a","email":"abcde","updatedAt":"2022-04-08T07:19:38.518Z","createdAt":"2022-04-08T07:19:38.518Z","snsId":null,"deletedAt":null}
+2022-04-08 16:19:38.592[info] (user.reg.result) {"provider":"local","id":11,"nick":"a","email":"abcde","updatedAt":"2022-04-08T07:19:38.518Z","createdAt":"2022-04-08T07:19:38.518Z","snsId":null,"deletedAt":null}
+2022-04-08 16:22:35.809[info] (user.reg.params) {"nick":"a","email":"abcde"}
+2022-04-08 16:22:35.810[error] Error: Not allowed null (name, userid, password)
+2022-04-08 16:22:35.897[error] (userService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "users_email_key" 고유 제약 조건을 위반함
+2022-04-08 16:22:46.650[info] (user.reg.params) {"nick":"a","email":"abcder"}
+2022-04-08 16:22:46.651[error] Error: Not allowed null (name, userid, password)
+2022-04-08 16:22:46.738[debug] (userService.reg) {"provider":"local","id":13,"nick":"a","email":"abcder","updatedAt":"2022-04-08T07:22:46.653Z","createdAt":"2022-04-08T07:22:46.653Z","snsId":null,"deletedAt":null}
+2022-04-08 16:22:46.740[info] (user.reg.result) {"provider":"local","id":13,"nick":"a","email":"abcder","updatedAt":"2022-04-08T07:22:46.653Z","createdAt":"2022-04-08T07:22:46.653Z","snsId":null,"deletedAt":null}
+2022-04-08 17:01:08.507[info] (user.reg.params) {"nick":"a","email":"abcder"}
+2022-04-08 17:01:08.511[error] Error: Not allowed null (name, userid, password)
+2022-04-08 17:01:08.586[error] (userService.reg) SequelizeUniqueConstraintError: 중복된 키 값이 "users_email_key" 고유 제약 조건을 위반함
+2022-04-08 17:01:34.544[info] (user.reg.params) {"nick":"da","email":"abcderd"}
+2022-04-08 17:01:34.546[error] Error: Not allowed null (name, userid, password)
+2022-04-08 17:01:34.626[debug] (userService.reg) {"provider":"local","id":15,"nick":"da","email":"abcderd","updatedAt":"2022-04-08T08:01:34.547Z","createdAt":"2022-04-08T08:01:34.547Z","snsId":null,"deletedAt":null}
+2022-04-08 17:01:34.628[info] (user.reg.result) {"provider":"local","id":15,"nick":"da","email":"abcderd","updatedAt":"2022-04-08T08:01:34.547Z","createdAt":"2022-04-08T08:01:34.547Z","snsId":null,"deletedAt":null}
+2022-04-08 17:03:08.900[info] app start
+2022-04-08 17:03:09.251[info] DB connection success
+2022-04-08 17:03:09.282[info] Sequelize sync success
+2022-04-08 17:03:14.241[info] app start
+2022-04-08 17:03:14.504[info] DB connection success
+2022-04-08 17:03:14.522[info] Sequelize sync success
+2022-04-08 17:03:21.530[info] (user.reg.params) {"nick":"da","email":"abcderde"}
+2022-04-08 17:03:21.532[error] Error: Not allowed null (name, userid, password)
+2022-04-08 17:03:49.554[info] (user.reg.params) {"nick":"da","email":"abcderde"}
+2022-04-08 17:03:49.555[error] Error: Not allowed null (name, userid, password)
+2022-04-08 17:04:01.065[info] app start
+2022-04-08 17:04:01.491[info] DB connection success
+2022-04-08 17:04:01.516[info] Sequelize sync success
+2022-04-08 17:04:04.237[info] app start
+2022-04-08 17:04:04.474[info] DB connection success
+2022-04-08 17:04:04.495[info] Sequelize sync success
+2022-04-08 17:04:10.277[info] (user.reg.params) {"nick":"da","email":"abcderde"}
+2022-04-08 17:04:10.279[error] Error: Not allowed null (name, userid, password)
+2022-04-08 17:04:10.292[debug] (userService.reg) {"provider":"local","id":16,"nick":"da","email":"abcderde","updatedAt":"2022-04-08T08:04:10.284Z","createdAt":"2022-04-08T08:04:10.284Z","snsId":null,"deletedAt":null}
+2022-04-08 17:04:10.294[info] (user.reg.result) {"provider":"local","id":16,"nick":"da","email":"abcderde","updatedAt":"2022-04-08T08:04:10.284Z","createdAt":"2022-04-08T08:04:10.284Z","snsId":null,"deletedAt":null}
