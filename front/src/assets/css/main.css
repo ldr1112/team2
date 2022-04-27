@@ -9,3 +9,13 @@
     margin: auto;
     width: 600px;
 }
+
+/* login.vue */
+.login_btn {
+    margin-right: 10px;
+}
+
+/* join.vue */
+.join_okbtn {
+    margin-right: 10px;
+}
