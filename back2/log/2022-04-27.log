@@ -1,0 +1,21 @@
+2022-04-27 13:33:30.063[info] (auth.token.params) {"userId":"rr","password":"rr"}
+2022-04-27 13:33:30.154[debug] (userService.login) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-27 13:33:30.160[debug] (userService.checkPassword) true
+2022-04-27 13:33:30.161[info] (auth.token.result) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-27 13:34:14.677[info] (auth.token.params) {"userId":"rr","password":"rr"}
+2022-04-27 13:34:14.749[debug] (userService.login) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-27 13:34:14.753[debug] (userService.checkPassword) true
+2022-04-27 13:34:14.754[info] (auth.token.result) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-27 13:34:22.849[info] (auth.token.params) {"userId":"rr","password":"rr"}
+2022-04-27 13:34:22.875[debug] (userService.login) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-27 13:34:22.882[debug] (userService.checkPassword) true
+2022-04-27 13:34:22.883[info] (auth.token.result) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-27 13:48:49.413[info] app start
+2022-04-27 13:48:50.260[info] DB connection success
+2022-04-27 13:48:50.277[info] Sequelize sync success
+2022-04-27 14:31:15.585[info] app start
+2022-04-27 14:31:15.895[info] DB connection success
+2022-04-27 14:31:15.920[info] Sequelize sync success
+2022-04-27 14:36:30.361[info] app start
+2022-04-27 14:36:30.630[info] DB connection success
+2022-04-27 14:36:30.652[info] Sequelize sync success

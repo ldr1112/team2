@@ -1,0 +1,63 @@
+2022-04-18 17:35:04.859[info] app start
+2022-04-18 17:35:05.429[info] DB connection success
+2022-04-18 17:35:05.468[info] Sequelize sync success
+2022-04-18 17:35:55.613[info] (auth.token.params) {"userId":"lee1","password":"123"}
+2022-04-18 17:35:55.621[error] (userService.login) Error: WHERE parameter "userid" has invalid "undefined" value
+2022-04-18 17:46:26.468[info] (auth.token.params) {"userId":"lee1","password":"123"}
+2022-04-18 17:46:26.470[error] (userService.login) Error: WHERE parameter "userid" has invalid "undefined" value
+2022-04-18 17:47:40.903[info] app start
+2022-04-18 17:47:41.474[info] DB connection success
+2022-04-18 17:47:41.494[info] Sequelize sync success
+2022-04-18 17:47:47.763[info] (auth.token.params) {"userId":"lee1","password":"123"}
+2022-04-18 17:47:47.771[error] (userService.login) Error: WHERE parameter "userid" has invalid "undefined" value
+2022-04-18 18:54:52.459[info] (auth.token.params) {"userId":"lee1","password":"123"}
+2022-04-18 18:54:52.463[error] (userService.login) Error: WHERE parameter "userid" has invalid "undefined" value
+2022-04-18 18:59:20.547[info] app start
+2022-04-18 18:59:20.829[info] DB connection success
+2022-04-18 18:59:20.847[info] Sequelize sync success
+2022-04-18 18:59:37.053[info] (auth.token.params) {"userId":"lee1","password":"123"}
+2022-04-18 18:59:37.060[error] (userService.login) Error: WHERE parameter "userid" has invalid "undefined" value
+2022-04-18 19:00:33.379[info] (auth.token.params) {"userId":"lee1","password":"123"}
+2022-04-18 19:00:33.383[error] (userService.login) Error: WHERE parameter "userid" has invalid "undefined" value
+2022-04-18 20:23:02.939[info] app start
+2022-04-18 20:23:03.329[info] DB connection success
+2022-04-18 20:23:03.348[info] Sequelize sync success
+2022-04-18 20:23:05.569[info] (auth.token.params) {"userId":"lee1","password":"123"}
+2022-04-18 20:23:05.578[error] (userService.login) Error: WHERE parameter "userid" has invalid "undefined" value
+2022-04-18 20:23:37.057[info] app start
+2022-04-18 20:23:37.357[info] DB connection success
+2022-04-18 20:23:37.377[info] Sequelize sync success
+2022-04-18 20:23:38.821[info] (auth.token.params) {"userId":"lee1","password":"123"}
+2022-04-18 20:23:38.835[error] (userService.login) Error: WHERE parameter "userid" has invalid "undefined" value
+2022-04-18 20:24:06.834[info] app start
+2022-04-18 20:24:07.074[info] DB connection success
+2022-04-18 20:24:07.093[info] Sequelize sync success
+2022-04-18 20:24:36.109[info] (auth.token.params) {"userId":"lee1","password":"123"}
+2022-04-18 20:24:36.218[error] (userService.login) SequelizeDatabaseError: "role" 이름의 칼럼은 없습니다
+2022-04-18 20:24:53.155[info] app start
+2022-04-18 20:24:53.439[info] DB connection success
+2022-04-18 20:24:53.460[info] Sequelize sync success
+2022-04-18 20:24:55.203[info] (auth.token.params) {"userId":"lee1","password":"123"}
+2022-04-18 20:24:55.220[debug] (userService.login) {"id":4,"userId":"lee1","password":"ugNtlIadWWlgs/6HZdU27+IGKYgt1VZeAk3o8wdCD2jqDfuWaYz+yr31IxgwCK6TJW0/Y05o2ZRH4dcMM/ZQxg==.d53372bd77e89048db74bbccca8ac88ccba70aecffbd354cdae0374adcb9c4fd8ae2ab4f12ec594ef331983ca99d9e7d65b86396863427ca8daaf17d8e882772","name":"lee"}
+2022-04-18 20:24:55.225[debug] (userService.checkPassword) true
+2022-04-18 20:25:20.049[info] app start
+2022-04-18 20:25:20.385[info] DB connection success
+2022-04-18 20:25:20.408[info] Sequelize sync success
+2022-04-18 20:25:21.670[info] (auth.token.params) {"userId":"lee1","password":"123"}
+2022-04-18 20:25:21.687[debug] (userService.checkPassword) true
+2022-04-18 20:26:18.804[info] app start
+2022-04-18 20:26:19.108[info] DB connection success
+2022-04-18 20:26:19.132[info] Sequelize sync success
+2022-04-18 20:26:23.838[info] app start
+2022-04-18 20:26:24.099[info] DB connection success
+2022-04-18 20:26:24.116[info] Sequelize sync success
+2022-04-18 20:26:26.434[info] (auth.token.params) {"userId":"lee1","password":"123"}
+2022-04-18 20:26:26.450[debug] (userService.checkPassword) true
+2022-04-18 20:26:26.452[info] (auth.token.result) {"id":4,"userId":"lee1","password":"ugNtlIadWWlgs/6HZdU27+IGKYgt1VZeAk3o8wdCD2jqDfuWaYz+yr31IxgwCK6TJW0/Y05o2ZRH4dcMM/ZQxg==.d53372bd77e89048db74bbccca8ac88ccba70aecffbd354cdae0374adcb9c4fd8ae2ab4f12ec594ef331983ca99d9e7d65b86396863427ca8daaf17d8e882772","name":"lee"}
+2022-04-18 20:27:28.263[info] app start
+2022-04-18 20:27:28.501[info] DB connection success
+2022-04-18 20:27:28.519[info] Sequelize sync success
+2022-04-18 20:32:31.887[info] (auth.token.params) {"userId":"lee1","password":"123"}
+2022-04-18 20:32:31.967[debug] (userService.login) {"id":4,"userId":"lee1","password":"ugNtlIadWWlgs/6HZdU27+IGKYgt1VZeAk3o8wdCD2jqDfuWaYz+yr31IxgwCK6TJW0/Y05o2ZRH4dcMM/ZQxg==.d53372bd77e89048db74bbccca8ac88ccba70aecffbd354cdae0374adcb9c4fd8ae2ab4f12ec594ef331983ca99d9e7d65b86396863427ca8daaf17d8e882772","name":"lee"}
+2022-04-18 20:32:31.972[debug] (userService.checkPassword) true
+2022-04-18 20:32:31.974[info] (auth.token.result) {"id":4,"userId":"lee1","password":"ugNtlIadWWlgs/6HZdU27+IGKYgt1VZeAk3o8wdCD2jqDfuWaYz+yr31IxgwCK6TJW0/Y05o2ZRH4dcMM/ZQxg==.d53372bd77e89048db74bbccca8ac88ccba70aecffbd354cdae0374adcb9c4fd8ae2ab4f12ec594ef331983ca99d9e7d65b86396863427ca8daaf17d8e882772","name":"lee"}

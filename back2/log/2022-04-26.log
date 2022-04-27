@@ -1,0 +1,131 @@
+2022-04-26 13:32:38.869[info] (user.reg.params) {"userId":"qq","password":"123"}
+2022-04-26 13:32:38.874[error] Error: Not allowed null (name, userId, password)
+2022-04-26 13:32:38.880[debug] (userService.makePassword) "123"
+2022-04-26 13:32:38.978[debug] (userService.reg) {"id":6,"name":null,"userId":"qq","updatedAt":"2022-04-26T04:32:38.884Z","createdAt":"2022-04-26T04:32:38.884Z","email":null,"deletedAt":null}
+2022-04-26 13:32:38.980[info] (user.reg.result) {"id":6,"name":null,"userId":"qq","updatedAt":"2022-04-26T04:32:38.884Z","createdAt":"2022-04-26T04:32:38.884Z","email":null,"deletedAt":null}
+2022-04-26 13:33:11.719[info] (user.reg.params) {"name":"qq","userId":"qq","password":"123"}
+2022-04-26 13:33:11.723[debug] (userService.makePassword) "123"
+2022-04-26 13:33:11.814[debug] (userService.reg) {"id":7,"name":"qq","userId":"qq","updatedAt":"2022-04-26T04:33:11.726Z","createdAt":"2022-04-26T04:33:11.726Z","email":null,"deletedAt":null}
+2022-04-26 13:33:11.818[info] (user.reg.result) {"id":7,"name":"qq","userId":"qq","updatedAt":"2022-04-26T04:33:11.726Z","createdAt":"2022-04-26T04:33:11.726Z","email":null,"deletedAt":null}
+2022-04-26 13:40:48.682[info] (user.reg.params) {"name":"aa","userId":null,"password":"aa"}
+2022-04-26 13:40:48.685[error] Error: Not allowed null (name, userId, password)
+2022-04-26 13:40:48.690[debug] (userService.makePassword) "aa"
+2022-04-26 13:40:48.695[error] (userService.reg) SequelizeValidationError: notNull Violation: User.userId cannot be null
+2022-04-26 13:41:29.026[info] app start
+2022-04-26 13:41:29.724[info] DB connection success
+2022-04-26 13:41:29.744[info] Sequelize sync success
+2022-04-26 13:41:54.597[info] app start
+2022-04-26 13:41:54.879[info] DB connection success
+2022-04-26 13:41:54.898[info] Sequelize sync success
+2022-04-26 13:42:03.933[info] (user.reg.params) {"name":"aa","userId":null,"password":"aa","email":"aa"}
+2022-04-26 13:42:03.936[error] Error: Not allowed null (name, userId, password)
+2022-04-26 13:42:03.942[debug] (userService.makePassword) "aa"
+2022-04-26 13:42:03.950[error] (userService.reg) SequelizeValidationError: notNull Violation: User.userId cannot be null
+2022-04-26 13:44:27.031[info] (user.reg.params) {"name":"aa","userId":null,"password":"aa","email":"aa"}
+2022-04-26 13:44:27.035[error] Error: Not allowed null (name, userId, password)
+2022-04-26 13:44:27.040[debug] (userService.makePassword) "aa"
+2022-04-26 13:44:27.044[error] (userService.reg) SequelizeValidationError: notNull Violation: User.userId cannot be null
+2022-04-26 13:47:01.006[info] (user.reg.params) {"name":"aa","userId":"aa","password":"aa","email":"aa"}
+2022-04-26 13:47:01.015[debug] (userService.makePassword) "aa"
+2022-04-26 13:47:01.114[debug] (userService.reg) {"id":8,"name":"aa","userId":"aa","email":"aa","updatedAt":"2022-04-26T04:47:01.016Z","createdAt":"2022-04-26T04:47:01.016Z","deletedAt":null}
+2022-04-26 13:47:01.121[info] (user.reg.result) {"id":8,"name":"aa","userId":"aa","email":"aa","updatedAt":"2022-04-26T04:47:01.016Z","createdAt":"2022-04-26T04:47:01.016Z","deletedAt":null}
+2022-04-26 13:47:55.467[info] (user.reg.params) {"name":"ss","userId":"ss","password":"ss","email":"ss"}
+2022-04-26 13:47:55.472[debug] (userService.makePassword) "ss"
+2022-04-26 13:47:55.549[debug] (userService.reg) {"id":9,"name":"ss","userId":"ss","email":"ss","updatedAt":"2022-04-26T04:47:55.474Z","createdAt":"2022-04-26T04:47:55.474Z","deletedAt":null}
+2022-04-26 13:47:55.552[info] (user.reg.result) {"id":9,"name":"ss","userId":"ss","email":"ss","updatedAt":"2022-04-26T04:47:55.474Z","createdAt":"2022-04-26T04:47:55.474Z","deletedAt":null}
+2022-04-26 13:48:31.291[info] (user.reg.params) {"name":"ww","userId":"ww","password":"ww","email":"ww"}
+2022-04-26 13:48:31.297[debug] (userService.makePassword) "ww"
+2022-04-26 13:48:31.387[debug] (userService.reg) {"id":10,"name":"ww","userId":"ww","email":"ww","updatedAt":"2022-04-26T04:48:31.299Z","createdAt":"2022-04-26T04:48:31.299Z","deletedAt":null}
+2022-04-26 13:48:31.392[info] (user.reg.result) {"id":10,"name":"ww","userId":"ww","email":"ww","updatedAt":"2022-04-26T04:48:31.299Z","createdAt":"2022-04-26T04:48:31.299Z","deletedAt":null}
+2022-04-26 13:50:08.256[info] (user.reg.params) {"name":"tt","userId":"tt","password":"tt","email":"tt"}
+2022-04-26 13:50:08.261[debug] (userService.makePassword) "tt"
+2022-04-26 13:50:08.477[debug] (userService.reg) {"id":11,"name":"tt","userId":"tt","email":"tt","updatedAt":"2022-04-26T04:50:08.263Z","createdAt":"2022-04-26T04:50:08.263Z","deletedAt":null}
+2022-04-26 13:50:08.481[info] (user.reg.result) {"id":11,"name":"tt","userId":"tt","email":"tt","updatedAt":"2022-04-26T04:50:08.263Z","createdAt":"2022-04-26T04:50:08.263Z","deletedAt":null}
+2022-04-26 13:53:19.983[info] (user.reg.params) {"name":"pp","userId":"pp","password":"pp","email":"pp"}
+2022-04-26 13:53:19.987[debug] (userService.makePassword) "pp"
+2022-04-26 13:53:20.068[debug] (userService.reg) {"id":12,"name":"pp","userId":"pp","email":"pp","updatedAt":"2022-04-26T04:53:19.988Z","createdAt":"2022-04-26T04:53:19.988Z","deletedAt":null}
+2022-04-26 13:53:20.075[info] (user.reg.result) {"id":12,"name":"pp","userId":"pp","email":"pp","updatedAt":"2022-04-26T04:53:19.988Z","createdAt":"2022-04-26T04:53:19.988Z","deletedAt":null}
+2022-04-26 13:54:35.485[info] (user.reg.params) {"name":"yy","userId":"yy","password":"yy","email":"yy"}
+2022-04-26 13:54:35.489[debug] (userService.makePassword) "yy"
+2022-04-26 13:54:35.570[debug] (userService.reg) {"id":13,"name":"yy","userId":"yy","email":"yy","updatedAt":"2022-04-26T04:54:35.491Z","createdAt":"2022-04-26T04:54:35.491Z","deletedAt":null}
+2022-04-26 13:54:35.574[info] (user.reg.result) {"id":13,"name":"yy","userId":"yy","email":"yy","updatedAt":"2022-04-26T04:54:35.491Z","createdAt":"2022-04-26T04:54:35.491Z","deletedAt":null}
+2022-04-26 13:54:43.867[info] (user.reg.params) {"name":"yy","userId":"yy","password":"yy","email":"yy"}
+2022-04-26 13:54:43.872[debug] (userService.makePassword) "yy"
+2022-04-26 13:54:43.892[debug] (userService.reg) {"id":14,"name":"yy","userId":"yy","email":"yy","updatedAt":"2022-04-26T04:54:43.874Z","createdAt":"2022-04-26T04:54:43.874Z","deletedAt":null}
+2022-04-26 13:54:43.893[info] (user.reg.result) {"id":14,"name":"yy","userId":"yy","email":"yy","updatedAt":"2022-04-26T04:54:43.874Z","createdAt":"2022-04-26T04:54:43.874Z","deletedAt":null}
+2022-04-26 13:58:09.257[info] (user.reg.params) {"name":"kk","userId":"kk","password":"kk","email":"kk"}
+2022-04-26 13:58:09.262[debug] (userService.makePassword) "kk"
+2022-04-26 13:58:09.352[debug] (userService.reg) {"id":15,"name":"kk","userId":"kk","email":"kk","updatedAt":"2022-04-26T04:58:09.265Z","createdAt":"2022-04-26T04:58:09.265Z","deletedAt":null}
+2022-04-26 13:58:09.356[info] (user.reg.result) {"id":15,"name":"kk","userId":"kk","email":"kk","updatedAt":"2022-04-26T04:58:09.265Z","createdAt":"2022-04-26T04:58:09.265Z","deletedAt":null}
+2022-04-26 14:28:12.731[info] (auth.token.params) {"userId":"kk","password":"kk"}
+2022-04-26 14:28:12.806[debug] (userService.login) {"id":15,"userId":"kk","password":"1UUDbOfNrIz4+L5XVv6XvuYXht3nRbImZcqtBlnGwk4/stm2UAfivuSk0KJRSAX4iOmh5Ea6i6EyPlUOyH3jSg==.00a2b09d0e6fefa67be9e5faa0ea3a858fbffd0459e89e79884f4dce8f65645855d5b22bdbbd2fc898533d4128fec38fda04ec8b279349a2b55ad2aafd4fe496","name":"kk"}
+2022-04-26 14:28:12.809[debug] (userService.checkPassword) true
+2022-04-26 14:28:12.810[info] (auth.token.result) {"id":15,"userId":"kk","password":"1UUDbOfNrIz4+L5XVv6XvuYXht3nRbImZcqtBlnGwk4/stm2UAfivuSk0KJRSAX4iOmh5Ea6i6EyPlUOyH3jSg==.00a2b09d0e6fefa67be9e5faa0ea3a858fbffd0459e89e79884f4dce8f65645855d5b22bdbbd2fc898533d4128fec38fda04ec8b279349a2b55ad2aafd4fe496","name":"kk"}
+2022-04-26 14:41:33.911[info] (auth.token.params) {"userId":"kk","password":"kk"}
+2022-04-26 14:41:33.978[debug] (userService.login) {"id":15,"userId":"kk","password":"1UUDbOfNrIz4+L5XVv6XvuYXht3nRbImZcqtBlnGwk4/stm2UAfivuSk0KJRSAX4iOmh5Ea6i6EyPlUOyH3jSg==.00a2b09d0e6fefa67be9e5faa0ea3a858fbffd0459e89e79884f4dce8f65645855d5b22bdbbd2fc898533d4128fec38fda04ec8b279349a2b55ad2aafd4fe496","name":"kk"}
+2022-04-26 14:41:33.983[debug] (userService.checkPassword) true
+2022-04-26 14:41:33.984[info] (auth.token.result) {"id":15,"userId":"kk","password":"1UUDbOfNrIz4+L5XVv6XvuYXht3nRbImZcqtBlnGwk4/stm2UAfivuSk0KJRSAX4iOmh5Ea6i6EyPlUOyH3jSg==.00a2b09d0e6fefa67be9e5faa0ea3a858fbffd0459e89e79884f4dce8f65645855d5b22bdbbd2fc898533d4128fec38fda04ec8b279349a2b55ad2aafd4fe496","name":"kk"}
+2022-04-26 14:41:43.499[info] (auth.token.params) {"userId":"kk","password":"kk"}
+2022-04-26 14:41:43.505[debug] (userService.login) {"id":15,"userId":"kk","password":"1UUDbOfNrIz4+L5XVv6XvuYXht3nRbImZcqtBlnGwk4/stm2UAfivuSk0KJRSAX4iOmh5Ea6i6EyPlUOyH3jSg==.00a2b09d0e6fefa67be9e5faa0ea3a858fbffd0459e89e79884f4dce8f65645855d5b22bdbbd2fc898533d4128fec38fda04ec8b279349a2b55ad2aafd4fe496","name":"kk"}
+2022-04-26 14:41:43.508[debug] (userService.checkPassword) true
+2022-04-26 14:41:43.510[info] (auth.token.result) {"id":15,"userId":"kk","password":"1UUDbOfNrIz4+L5XVv6XvuYXht3nRbImZcqtBlnGwk4/stm2UAfivuSk0KJRSAX4iOmh5Ea6i6EyPlUOyH3jSg==.00a2b09d0e6fefa67be9e5faa0ea3a858fbffd0459e89e79884f4dce8f65645855d5b22bdbbd2fc898533d4128fec38fda04ec8b279349a2b55ad2aafd4fe496","name":"kk"}
+2022-04-26 14:41:47.318[info] (auth.token.params) {"userId":"qq","password":"qq"}
+2022-04-26 14:41:47.325[debug] (userService.login) {"id":5,"userId":"qq","password":"kvLeuDJsBqGSu1gUMPVAgtjvE7IhpaPsziYu2bzBZmkQ5HkoImfNaOb5Nu1SD90fNStWOLbLyR/11zDDSOdJ3Q==.a31f4b3ad0798b067655623245c29c432d8d9e6e297e1ae30d5ac66bbb64eb62117216329950445d7d7c738ebfa87eba1d292b962ae2240c6595b84823431dc2","name":null}
+2022-04-26 14:41:47.328[debug] (userService.checkPassword) false
+2022-04-26 14:41:47.329[error] Error: Incorect userId or password
+2022-04-26 14:41:57.827[info] (auth.token.params) {"userId":"yy","password":"yy"}
+2022-04-26 14:41:57.832[debug] (userService.login) {"id":13,"userId":"yy","password":"7BqN3iJKVb/T9bIptcQ7TKGDlyW6NjIFNyqxUlFfsnBGIQdeqdqXJKgvgkp35a+3WuIfU3YR4eBM/r+RHFafHQ==.7e92458f06434bbbb1e084d1bf0d5843d97701683be925f58134c650ffbb629d4f808ca71c0c43abf2fd9e492ff21bd5dafab7fce4714c26775d519d8b5f2374","name":"yy"}
+2022-04-26 14:41:57.836[debug] (userService.checkPassword) true
+2022-04-26 14:41:57.837[info] (auth.token.result) {"id":13,"userId":"yy","password":"7BqN3iJKVb/T9bIptcQ7TKGDlyW6NjIFNyqxUlFfsnBGIQdeqdqXJKgvgkp35a+3WuIfU3YR4eBM/r+RHFafHQ==.7e92458f06434bbbb1e084d1bf0d5843d97701683be925f58134c650ffbb629d4f808ca71c0c43abf2fd9e492ff21bd5dafab7fce4714c26775d519d8b5f2374","name":"yy"}
+2022-04-26 15:15:54.931[info] (auth.token.params) {"userId":"kk","password":"kk"}
+2022-04-26 15:15:55.013[debug] (userService.login) {"id":15,"userId":"kk","password":"1UUDbOfNrIz4+L5XVv6XvuYXht3nRbImZcqtBlnGwk4/stm2UAfivuSk0KJRSAX4iOmh5Ea6i6EyPlUOyH3jSg==.00a2b09d0e6fefa67be9e5faa0ea3a858fbffd0459e89e79884f4dce8f65645855d5b22bdbbd2fc898533d4128fec38fda04ec8b279349a2b55ad2aafd4fe496","name":"kk"}
+2022-04-26 15:15:55.017[debug] (userService.checkPassword) true
+2022-04-26 15:15:55.018[info] (auth.token.result) {"id":15,"userId":"kk","password":"1UUDbOfNrIz4+L5XVv6XvuYXht3nRbImZcqtBlnGwk4/stm2UAfivuSk0KJRSAX4iOmh5Ea6i6EyPlUOyH3jSg==.00a2b09d0e6fefa67be9e5faa0ea3a858fbffd0459e89e79884f4dce8f65645855d5b22bdbbd2fc898533d4128fec38fda04ec8b279349a2b55ad2aafd4fe496","name":"kk"}
+2022-04-26 15:34:52.601[info] (auth.token.params) {"userId":null,"password":null}
+2022-04-26 15:34:52.602[error] Error: Not allowed null (userId, password)
+2022-04-26 15:34:52.676[debug] (userService.login) null
+2022-04-26 15:34:52.677[error] Error: Incorect userId or password
+2022-04-26 15:35:21.654[info] (user.reg.params) {"name":"rr","userId":"rr","password":"rr","email":"rr"}
+2022-04-26 15:35:21.660[debug] (userService.makePassword) "rr"
+2022-04-26 15:35:21.731[debug] (userService.reg) {"id":16,"name":"rr","userId":"rr","email":"rr","updatedAt":"2022-04-26T06:35:21.663Z","createdAt":"2022-04-26T06:35:21.663Z","deletedAt":null}
+2022-04-26 15:35:21.732[info] (user.reg.result) {"id":16,"name":"rr","userId":"rr","email":"rr","updatedAt":"2022-04-26T06:35:21.663Z","createdAt":"2022-04-26T06:35:21.663Z","deletedAt":null}
+2022-04-26 15:35:24.555[info] (auth.token.params) {"userId":"rr","password":"rr"}
+2022-04-26 15:35:24.569[debug] (userService.login) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 15:35:24.574[debug] (userService.checkPassword) true
+2022-04-26 15:35:24.575[info] (auth.token.result) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 15:36:27.436[info] (auth.token.params) {"userId":"rr","password":"rr"}
+2022-04-26 15:36:27.636[debug] (userService.login) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 15:36:27.639[debug] (userService.checkPassword) true
+2022-04-26 15:36:27.640[info] (auth.token.result) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 15:36:52.975[info] (auth.token.params) {"userId":"rr","password":"rr"}
+2022-04-26 15:36:53.066[debug] (userService.login) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 15:36:53.070[debug] (userService.checkPassword) true
+2022-04-26 15:36:53.071[info] (auth.token.result) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 15:38:50.746[info] (auth.token.params) {"userId":"rr","password":"rr"}
+2022-04-26 15:38:50.811[debug] (userService.login) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 15:38:50.815[debug] (userService.checkPassword) true
+2022-04-26 15:38:50.816[info] (auth.token.result) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 15:39:33.874[info] (auth.token.params) {"userId":"rr","password":"rr"}
+2022-04-26 15:39:33.942[debug] (userService.login) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 15:39:33.945[debug] (userService.checkPassword) true
+2022-04-26 15:39:33.946[info] (auth.token.result) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 15:39:45.855[info] (auth.token.params) {"userId":"rr","password":"rr"}
+2022-04-26 15:39:45.938[debug] (userService.login) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 15:39:45.942[debug] (userService.checkPassword) true
+2022-04-26 15:39:45.942[info] (auth.token.result) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 16:42:59.758[info] (auth.token.params) {"userId":"rr","password":"rr"}
+2022-04-26 16:42:59.844[debug] (userService.login) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 16:42:59.847[debug] (userService.checkPassword) true
+2022-04-26 16:42:59.848[info] (auth.token.result) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 16:43:06.983[info] (auth.token.params) {"userId":"rr","password":"rr"}
+2022-04-26 16:43:06.987[debug] (userService.login) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 16:43:06.990[debug] (userService.checkPassword) true
+2022-04-26 16:43:06.991[info] (auth.token.result) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 16:48:55.978[info] (auth.token.params) {"userId":"rr","password":"rr"}
+2022-04-26 16:48:56.044[debug] (userService.login) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 16:48:56.052[debug] (userService.checkPassword) true
+2022-04-26 16:48:56.053[info] (auth.token.result) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 19:32:01.662[info] (auth.token.params) {"userId":"rr","password":"rr"}
+2022-04-26 19:32:01.738[debug] (userService.login) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}
+2022-04-26 19:32:01.742[debug] (userService.checkPassword) true
+2022-04-26 19:32:01.743[info] (auth.token.result) {"id":16,"userId":"rr","password":"fiX0ywRjhVmXVgcsnL0335iEsaw3S8eS15PrwsW4N+bEEd7xYABV1XnKwoRriUMUnnCMUWQG4Ym1fzWmmIE8Ww==.a6ecca078ac3102d471d20e2bf715cdc64e44c78ad1c179db193c404b53a8a7059501d632d10a508b3679920747526c8faefc80bae60ec5357e0ad45de1e0dc5","name":"rr"}

@@ -1,0 +1,26 @@
+2022-04-25 16:17:09.371[info] app start
+2022-04-25 16:17:10.045[info] DB connection success
+2022-04-25 16:17:10.070[info] Sequelize sync success
+2022-04-25 19:41:08.008[info] app start
+2022-04-25 19:41:08.277[info] DB connection success
+2022-04-25 19:41:08.295[info] Sequelize sync success
+2022-04-25 20:28:11.966[info] app start
+2022-04-25 20:28:12.226[info] DB connection success
+2022-04-25 20:28:12.243[info] Sequelize sync success
+2022-04-25 20:30:18.773[info] app start
+2022-04-25 20:30:19.025[info] DB connection success
+2022-04-25 20:30:19.043[info] Sequelize sync success
+2022-04-25 20:30:31.711[info] app start
+2022-04-25 20:30:32.111[info] DB connection success
+2022-04-25 20:30:32.137[info] Sequelize sync success
+2022-04-25 20:36:53.927[info] app start
+2022-04-25 20:36:54.183[info] DB connection success
+2022-04-25 20:36:54.199[info] Sequelize sync success
+2022-04-25 20:56:43.841[info] app start
+2022-04-25 20:56:44.152[info] DB connection success
+2022-04-25 20:56:44.170[info] Sequelize sync success
+2022-04-25 22:03:58.325[info] (user.reg.params) {"userId":"qq","password":"123"}
+2022-04-25 22:03:58.329[error] Error: Not allowed null (name, userId, password)
+2022-04-25 22:03:58.336[debug] (userService.makePassword) "123"
+2022-04-25 22:03:58.465[debug] (userService.reg) {"id":5,"name":null,"userId":"qq","updatedAt":"2022-04-25T13:03:58.339Z","createdAt":"2022-04-25T13:03:58.339Z","email":null,"deletedAt":null}
+2022-04-25 22:03:58.466[info] (user.reg.result) {"id":5,"name":null,"userId":"qq","updatedAt":"2022-04-25T13:03:58.339Z","createdAt":"2022-04-25T13:03:58.339Z","email":null,"deletedAt":null}
