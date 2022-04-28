@@ -1,0 +1,237 @@
+2022-04-13 19:28:41.795[info] app start
+2022-04-13 19:28:54.873[info] app start
+2022-04-13 19:29:12.446[info] app start
+2022-04-13 19:29:19.171[info] app start
+2022-04-13 20:25:32.263[info] app start
+2022-04-13 20:25:43.569[info] (user.list.params) {}
+2022-04-13 20:25:43.571[error] (userService.list) TypeError: userDao.selectList is not a function
+2022-04-13 20:27:44.964[info] app start
+2022-04-13 20:27:47.801[info] (user.list.params) {}
+2022-04-13 20:27:47.803[error] (userService.list) TypeError: userDao.selectList is not a function
+2022-04-13 20:27:57.977[info] app start
+2022-04-13 20:28:10.720[info] app start
+2022-04-13 20:28:13.054[info] (user.list.params) {}
+2022-04-13 20:28:13.056[debug] {userService.list} undefined
+2022-04-13 20:28:13.058[info] (user.list.result) undefined
+2022-04-13 20:28:24.884[info] (user.reg.params) {"name":"al"}
+2022-04-13 20:28:24.885[error] Error: Not allowed null (name, userid, password)
+2022-04-13 20:28:24.891[error] (userService.reg) SequelizeValidationError: notNull Violation: User.userId cannot be null
+2022-04-13 20:28:35.558[info] (user.reg.params) {"name":"al","userId":"alId"}
+2022-04-13 20:28:35.559[error] Error: Not allowed null (name, userid, password)
+2022-04-13 20:28:35.841[error] (userService.reg) SequelizeDatabaseError: "user_id" 칼럼은 "users" 릴레이션(relation)에 없음
+2022-04-13 20:29:49.390[info] app start
+2022-04-13 20:37:27.120[info] (user.reg.params) {"name":"al","userId":"alId"}
+2022-04-13 20:37:27.122[error] Error: Not allowed null (name, userid, password)
+2022-04-13 20:37:27.350[error] (userService.reg) SequelizeDatabaseError: "users" 이름의 릴레이션(relation)이 없습니다
+2022-04-13 20:38:43.155[info] (user.list.params) {}
+2022-04-13 20:38:43.157[debug] {userService.list} undefined
+2022-04-13 20:38:43.159[info] (user.list.result) undefined
+2022-04-13 20:42:26.866[info] (user.list.params) {}
+2022-04-13 20:42:26.867[debug] {userService.list} undefined
+2022-04-13 20:42:26.869[info] (user.list.result) undefined
+2022-04-13 20:42:27.800[info] (user.list.params) {}
+2022-04-13 20:42:27.802[debug] {userService.list} undefined
+2022-04-13 20:42:27.804[info] (user.list.result) undefined
+2022-04-13 20:42:31.969[info] (user.reg.params) {"name":"al","userId":"alId"}
+2022-04-13 20:42:31.971[error] Error: Not allowed null (name, userid, password)
+2022-04-13 20:42:32.071[error] (userService.reg) SequelizeDatabaseError: "users" 이름의 릴레이션(relation)이 없습니다
+2022-04-13 20:43:29.682[info] app start
+2022-04-13 20:43:30.911[info] app start
+2022-04-13 20:45:31.950[info] app start
+2022-04-13 20:45:32.213[info] DB connection success
+2022-04-13 20:45:32.225[error] Sequelize sync error 선택된 스키마 없음, 대상:
+2022-04-13 20:45:42.627[info] app start
+2022-04-13 20:45:42.866[info] DB connection success
+2022-04-13 20:45:42.874[error] Sequelize sync error 선택된 스키마 없음, 대상:
+2022-04-13 20:47:03.956[info] (user.reg.params) {"name":"al","userId":"alId","password":"1"}
+2022-04-13 20:47:04.046[error] (userService.reg) SequelizeDatabaseError: "users" 이름의 릴레이션(relation)이 없습니다
+2022-04-13 20:50:03.590[info] (user.reg.params) {"name":"al","userId":"alId","password":"1"}
+2022-04-13 20:50:03.668[error] (userService.reg) SequelizeDatabaseError: "users" 이름의 릴레이션(relation)이 없습니다
+2022-04-13 20:50:29.188[info] (user.reg.params) {"name":"al","userId":"alId","password":"1"}
+2022-04-13 20:50:29.252[error] (userService.reg) SequelizeDatabaseError: "users" 이름의 릴레이션(relation)이 없습니다
+2022-04-13 20:53:02.335[info] app start
+2022-04-13 20:53:02.596[info] DB connection success
+2022-04-13 20:53:02.603[error] Sequelize sync error 선택된 스키마 없음, 대상:
+2022-04-13 20:56:42.780[info] app start
+2022-04-13 20:56:43.048[info] DB connection success
+2022-04-13 20:56:43.057[error] Sequelize sync error 선택된 스키마 없음, 대상:
+2022-04-13 21:03:33.467[info] app start
+2022-04-13 21:03:33.760[error] DB Connection fail "postgres2" �����ͺ��̽� ����
+2022-04-13 21:04:04.039[info] app start
+2022-04-13 21:04:04.186[error] DB Connection fail "postgres2" 데이터베이스 없음
+2022-04-13 21:04:22.481[info] app start
+2022-04-13 21:04:22.626[error] DB Connection fail "postgres 2" 데이터베이스 없음
+2022-04-13 21:05:05.192[info] app start
+2022-04-13 21:05:05.524[info] DB connection success
+2022-04-13 21:05:05.839[info] Sequelize sync success
+2022-04-13 21:05:34.578[info] (user.reg.params) {"name":"al","userId":"alId","password":"1"}
+2022-04-13 21:05:34.675[debug] (userService.reg) {"id":1,"name":"al","userId":"alId","updatedAt":"2022-04-13T12:05:34.583Z","createdAt":"2022-04-13T12:05:34.583Z","email":null,"deletedAt":null}
+2022-04-13 21:05:34.677[info] (user.reg.result) {"id":1,"name":"al","userId":"alId","updatedAt":"2022-04-13T12:05:34.583Z","createdAt":"2022-04-13T12:05:34.583Z","email":null,"deletedAt":null}
+2022-04-13 21:06:50.145[info] app start
+2022-04-13 21:06:50.422[info] DB connection success
+2022-04-13 21:06:50.433[error] Sequelize sync error 선택된 스키마 없음, 대상:
+2022-04-13 21:12:21.573[info] app start
+2022-04-13 21:12:21.835[info] DB connection success
+2022-04-13 21:12:21.845[error] Sequelize sync error 선택된 스키마 없음, 대상:
+2022-04-13 21:15:01.356[info] app start
+2022-04-13 21:15:01.648[info] DB connection success
+2022-04-13 21:15:01.659[error] Sequelize sync error 선택된 스키마 없음, 대상:
+2022-04-13 21:18:47.983[info] app start
+2022-04-13 21:18:48.294[info] DB connection success
+2022-04-13 21:18:48.305[error] Sequelize sync error 선택된 스키마 없음, 대상:
+2022-04-13 21:19:12.555[info] app start
+2022-04-13 21:19:12.931[info] DB connection success
+2022-04-13 21:19:12.978[info] Sequelize sync success
+2022-04-13 21:19:27.105[info] (user.reg.params) {"name":"al","userId":"alId","password":"1"}
+2022-04-13 21:19:27.202[debug] (userService.reg) {"id":1,"name":"al","userId":"alId","updatedAt":"2022-04-13T12:19:27.109Z","createdAt":"2022-04-13T12:19:27.109Z","email":null,"deletedAt":null}
+2022-04-13 21:19:27.203[info] (user.reg.result) {"id":1,"name":"al","userId":"alId","updatedAt":"2022-04-13T12:19:27.109Z","createdAt":"2022-04-13T12:19:27.109Z","email":null,"deletedAt":null}
+2022-04-13 21:24:53.722[info] (user.list.params) {}
+2022-04-13 21:24:53.725[debug] {userService.list} undefined
+2022-04-13 21:24:53.726[info] (user.list.result) undefined
+2022-04-13 21:24:58.872[info] (user.list.params) {}
+2022-04-13 21:24:58.874[debug] {userService.list} undefined
+2022-04-13 21:24:58.875[info] (user.list.result) undefined
+2022-04-13 21:25:17.960[info] (user.list.params) {}
+2022-04-13 21:25:17.962[debug] {userService.list} undefined
+2022-04-13 21:25:17.963[info] (user.list.result) undefined
+2022-04-13 21:25:19.544[info] (user.list.params) {}
+2022-04-13 21:25:19.549[debug] {userService.list} undefined
+2022-04-13 21:25:19.552[info] (user.list.result) undefined
+2022-04-13 21:25:41.801[info] (user.list.params) {}
+2022-04-13 21:25:41.804[debug] {userService.list} undefined
+2022-04-13 21:25:41.805[info] (user.list.result) undefined
+2022-04-13 21:26:09.030[info] (user.list.params) {}
+2022-04-13 21:26:09.033[debug] {userService.list} undefined
+2022-04-13 21:26:09.033[info] (user.list.result) undefined
+2022-04-13 21:26:21.958[info] (user.reg.params) {"name":"aaal","userId":"alIdaaa","password":"1aaa"}
+2022-04-13 21:26:22.147[debug] (userService.reg) {"id":2,"name":"aaal","userId":"alIdaaa","updatedAt":"2022-04-13T12:26:21.960Z","createdAt":"2022-04-13T12:26:21.960Z","email":null,"deletedAt":null}
+2022-04-13 21:26:22.149[info] (user.reg.result) {"id":2,"name":"aaal","userId":"alIdaaa","updatedAt":"2022-04-13T12:26:21.960Z","createdAt":"2022-04-13T12:26:21.960Z","email":null,"deletedAt":null}
+2022-04-13 21:26:34.190[info] (user.list.params) {}
+2022-04-13 21:26:34.192[debug] {userService.list} undefined
+2022-04-13 21:26:34.192[info] (user.list.result) undefined
+2022-04-13 21:27:06.895[info] app start
+2022-04-13 21:27:07.157[info] DB connection success
+2022-04-13 21:27:07.175[info] Sequelize sync success
+2022-04-13 21:27:09.989[info] (user.list.params) {}
+2022-04-13 21:27:09.993[error] (userService.list) Error: Include unexpected. Element has to be either a Model, an Association or an object.
+2022-04-13 21:27:22.584[info] app start
+2022-04-13 21:27:22.959[info] DB connection success
+2022-04-13 21:27:22.976[info] Sequelize sync success
+2022-04-13 21:28:41.367[info] (user.list.params) {}
+2022-04-13 21:28:41.370[debug] {userService.list} undefined
+2022-04-13 21:28:41.371[info] (user.list.result) undefined
+2022-04-13 21:30:34.618[info] app start
+2022-04-13 21:30:34.993[info] DB connection success
+2022-04-13 21:30:35.009[info] Sequelize sync success
+2022-04-13 21:30:40.076[info] (user.list.params) {}
+2022-04-13 21:30:40.078[debug] {userService.list} undefined
+2022-04-13 21:30:40.079[info] (user.list.result) undefined
+2022-04-13 21:32:02.566[info] app start
+2022-04-13 21:32:02.837[info] DB connection success
+2022-04-13 21:32:02.856[info] Sequelize sync success
+2022-04-13 21:32:06.680[info] (user.list.params) {}
+2022-04-13 21:32:06.682[debug] (userService.list) undefined
+2022-04-13 21:32:06.683[info] (user.list.result) undefined
+2022-04-13 21:35:40.867[info] app start
+2022-04-13 21:35:41.137[info] DB connection success
+2022-04-13 21:35:41.155[info] Sequelize sync success
+2022-04-13 21:35:42.959[info] (user.list.params) {"name":"aaal","userId":"alIdaaa"}
+2022-04-13 21:35:42.961[debug] (userService.list) undefined
+2022-04-13 21:35:42.962[info] (user.list.result) undefined
+2022-04-13 21:35:59.703[info] app start
+2022-04-13 21:36:00.058[info] DB connection success
+2022-04-13 21:36:00.077[info] Sequelize sync success
+2022-04-13 21:36:02.436[info] (user.list.params) {}
+2022-04-13 21:36:02.437[debug] (userService.list) undefined
+2022-04-13 21:36:02.438[info] (user.list.result) undefined
+2022-04-13 21:37:25.005[info] app start
+2022-04-13 21:37:25.261[info] DB connection success
+2022-04-13 21:37:25.279[info] Sequelize sync success
+2022-04-13 21:37:28.159[info] (user.list.params) {}
+2022-04-13 21:37:28.161[debug] (userService.list) undefined
+2022-04-13 21:37:28.162[info] (user.list.result) undefined
+2022-04-13 21:44:43.239[info] app start
+2022-04-13 21:44:43.510[info] DB connection success
+2022-04-13 21:44:43.529[info] Sequelize sync success
+2022-04-13 21:44:49.728[info] (user.list.params) {"name":"aaal","userId":"alIdaaa"}
+2022-04-13 21:44:49.730[debug] (userService.list) undefined
+2022-04-13 21:44:49.732[info] (user.list.result) undefined
+2022-04-13 21:46:32.451[info] (user.list.params) {"name":"aaal","userId":"alIdaaa"}
+2022-04-13 21:46:32.456[debug] (userService.list) undefined
+2022-04-13 21:46:32.457[info] (user.list.result) undefined
+2022-04-13 21:46:42.590[info] (user.list.params) {"name":"aaal","userId":"alIdaaa"}
+2022-04-13 21:46:42.593[debug] (userService.list) undefined
+2022-04-13 21:46:42.594[info] (user.list.result) undefined
+2022-04-13 21:46:56.653[info] (user.list.params) {"name":"aaal","userId":"alIdaaa"}
+2022-04-13 21:46:56.655[debug] (userService.list) undefined
+2022-04-13 21:46:56.659[info] (user.list.result) undefined
+2022-04-13 21:47:03.680[info] (user.list.params) {"name":"aaal","userId":"alIdaaa"}
+2022-04-13 21:47:03.683[debug] (userService.list) undefined
+2022-04-13 21:47:03.685[info] (user.list.result) undefined
+2022-04-13 21:47:10.546[info] (user.list.params) {"name":"aaal","userId":"alIdaaa"}
+2022-04-13 21:47:10.548[debug] (userService.list) undefined
+2022-04-13 21:47:10.549[info] (user.list.result) undefined
+2022-04-13 21:47:34.934[info] app start
+2022-04-13 21:47:35.187[info] DB connection success
+2022-04-13 21:47:35.206[info] Sequelize sync success
+2022-04-13 21:48:06.562[info] app start
+2022-04-13 21:48:06.833[info] DB connection success
+2022-04-13 21:48:06.849[info] Sequelize sync success
+2022-04-13 21:48:10.067[info] (user.list.params) {}
+2022-04-13 21:48:10.070[debug] (userService.list) undefined
+2022-04-13 21:48:10.071[info] (user.list.result) undefined
+2022-04-13 21:48:13.519[info] (profile.info.params) {"userId":"alIdaaa","name":"aaal"}
+2022-04-13 21:48:54.822[info] (user.list.params) {"userId":"aaal"}
+2022-04-13 21:48:54.824[debug] (userService.list) undefined
+2022-04-13 21:48:54.825[info] (user.list.result) undefined
+2022-04-13 21:52:25.394[info] app start
+2022-04-13 21:52:25.654[info] DB connection success
+2022-04-13 21:52:25.672[info] Sequelize sync success
+2022-04-13 21:53:01.603[info] app start
+2022-04-13 21:53:01.868[info] DB connection success
+2022-04-13 21:53:01.886[info] Sequelize sync success
+2022-04-13 21:54:01.432[info] app start
+2022-04-13 21:54:01.689[info] DB connection success
+2022-04-13 21:54:01.706[info] Sequelize sync success
+2022-04-13 21:54:05.756[info] (user.list.params) {"userId":"aaal"}
+2022-04-13 21:54:05.772[debug] (userService.list) {"count":0,"rows":[]}
+2022-04-13 21:54:05.774[info] (user.list.result) {"count":0,"rows":[]}
+2022-04-13 21:54:09.238[info] (user.list.params) {}
+2022-04-13 21:54:09.246[debug] (userService.list) {"count":2,"rows":[{"id":2,"name":"aaal","userId":"alIdaaa","password":"1aaa","email":null,"createdAt":"2022-04-13T12:26:21.960Z","updatedAt":"2022-04-13T12:26:21.960Z","deletedAt":null},{"id":1,"name":"al","userId":"alId","password":"1","email":null,"createdAt":"2022-04-13T12:19:27.109Z","updatedAt":"2022-04-13T12:19:27.109Z","deletedAt":null}]}
+2022-04-13 21:54:09.248[info] (user.list.result) {"count":2,"rows":[{"id":2,"name":"aaal","userId":"alIdaaa","password":"1aaa","email":null,"createdAt":"2022-04-13T12:26:21.960Z","updatedAt":"2022-04-13T12:26:21.960Z","deletedAt":null},{"id":1,"name":"al","userId":"alId","password":"1","email":null,"createdAt":"2022-04-13T12:19:27.109Z","updatedAt":"2022-04-13T12:19:27.109Z","deletedAt":null}]}
+2022-04-13 21:54:21.291[info] app start
+2022-04-13 21:54:21.591[info] DB connection success
+2022-04-13 21:54:21.630[info] Sequelize sync success
+2022-04-13 21:54:22.601[info] (user.list.params) {}
+2022-04-13 21:54:22.604[debug] (userService.list) undefined
+2022-04-13 21:54:22.605[info] (user.list.result) undefined
+2022-04-13 21:54:25.879[info] app start
+2022-04-13 21:54:26.148[info] DB connection success
+2022-04-13 21:54:26.166[info] Sequelize sync success
+2022-04-13 21:54:26.336[info] (user.list.params) {}
+2022-04-13 21:54:26.352[debug] (userService.list) {"count":2,"rows":[{"id":2,"name":"aaal","userId":"alIdaaa","password":"1aaa","email":null,"createdAt":"2022-04-13T12:26:21.960Z","updatedAt":"2022-04-13T12:26:21.960Z","deletedAt":null},{"id":1,"name":"al","userId":"alId","password":"1","email":null,"createdAt":"2022-04-13T12:19:27.109Z","updatedAt":"2022-04-13T12:19:27.109Z","deletedAt":null}]}
+2022-04-13 21:54:26.354[info] (user.list.result) {"count":2,"rows":[{"id":2,"name":"aaal","userId":"alIdaaa","password":"1aaa","email":null,"createdAt":"2022-04-13T12:26:21.960Z","updatedAt":"2022-04-13T12:26:21.960Z","deletedAt":null},{"id":1,"name":"al","userId":"alId","password":"1","email":null,"createdAt":"2022-04-13T12:19:27.109Z","updatedAt":"2022-04-13T12:19:27.109Z","deletedAt":null}]}
+2022-04-13 21:54:30.614[info] app start
+2022-04-13 21:54:31.003[info] DB connection success
+2022-04-13 21:54:31.021[info] Sequelize sync success
+2022-04-13 21:54:31.658[info] (user.list.params) {}
+2022-04-13 21:54:31.672[debug] (userService.list) {"count":2,"rows":[{"id":2,"name":"aaal","userId":"alIdaaa","password":"1aaa","email":null,"createdAt":"2022-04-13T12:26:21.960Z","updatedAt":"2022-04-13T12:26:21.960Z","deletedAt":null},{"id":1,"name":"al","userId":"alId","password":"1","email":null,"createdAt":"2022-04-13T12:19:27.109Z","updatedAt":"2022-04-13T12:19:27.109Z","deletedAt":null}]}
+2022-04-13 21:54:31.675[info] (user.list.result) {"count":2,"rows":[{"id":2,"name":"aaal","userId":"alIdaaa","password":"1aaa","email":null,"createdAt":"2022-04-13T12:26:21.960Z","updatedAt":"2022-04-13T12:26:21.960Z","deletedAt":null},{"id":1,"name":"al","userId":"alId","password":"1","email":null,"createdAt":"2022-04-13T12:19:27.109Z","updatedAt":"2022-04-13T12:19:27.109Z","deletedAt":null}]}
+2022-04-13 21:54:35.128[info] app start
+2022-04-13 21:54:35.395[info] DB connection success
+2022-04-13 21:54:35.414[info] Sequelize sync success
+2022-04-13 21:55:19.330[info] app start
+2022-04-13 21:55:19.602[info] DB connection success
+2022-04-13 21:55:19.620[info] Sequelize sync success
+2022-04-13 21:55:26.675[info] app start
+2022-04-13 21:55:26.918[info] DB connection success
+2022-04-13 21:55:26.938[info] Sequelize sync success
+2022-04-13 21:56:24.511[info] app start
+2022-04-13 21:56:24.788[info] DB connection success
+2022-04-13 21:56:24.805[info] Sequelize sync success
+2022-04-13 21:56:53.945[info] app start
+2022-04-13 21:56:54.190[info] DB connection success
+2022-04-13 21:56:54.208[info] Sequelize sync success
+2022-04-13 21:56:56.392[info] app start
+2022-04-13 21:56:56.783[info] DB connection success
+2022-04-13 21:56:56.801[info] Sequelize sync success
