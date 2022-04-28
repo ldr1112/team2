@@ -16,6 +16,18 @@ const routes = [
     ]
   },
   {
+    path: '/user',
+    component: () => import('../views/user')
+  },
+  {
+    path: '/department',
+    component: () => import('../views/department')
+  },
+  {
+    path: '/device',
+    component: () => import('../views/device')
+  },
+  {
     path: '/webgl',
     component: () => import('../views/webgl/webgl.vue')
   },

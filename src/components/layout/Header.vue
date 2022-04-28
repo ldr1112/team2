@@ -14,6 +14,9 @@
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="item mx-auto" style="font-size: 20px">
+            <b-nav-item href="#" @click="$router.push('/user')">사용자 관리</b-nav-item>
+            <b-nav-item href="#" @click="$router.push('/department')">부서 관리</b-nav-item>
+            <b-nav-item href="#" @click="$router.push('/device')">장비 관리</b-nav-item>
             <b-nav-item href="#" @click="$router.push('/LineChart')">데이터 분석</b-nav-item>
             <b-nav-item href="#" @click="$router.push('/webgl')">Webgl</b-nav-item>
           </b-navbar-nav>

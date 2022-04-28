@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="logo" src="../assets/bg.png" />
-    <HelloWorld msg="Welcome To Team Project" />
+    <HelloWorld msg="Welcome To Smart Factory" />
   </div>
 </template>
 

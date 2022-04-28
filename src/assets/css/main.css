@@ -9,3 +9,15 @@
     margin: auto;
     width: 600px;
 }
+
+.mt-3 {
+    margin-top: 0 !important;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.grapana {
+    margin-top: 10%;
+}
