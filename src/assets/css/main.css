@@ -1,0 +1,44 @@
+/* home */
+.home {
+    margin-top:200px;
+}
+
+
+/* LineChart */
+.line {
+    margin: auto;
+    width: 600px;
+}
+
+.login {
+    margin-top: 100px;
+    background-color: beige;
+}
+
+/* login.vue */
+.login_btn {
+    margin-right: 10px;
+
+}
+
+.join {
+    margin-top: 100px;
+    background-color: beige;
+}
+
+/* join.vue */
+.join_okbtn {
+    margin-right: 10px;
+}
+
+.department {
+    margin-top: 100px;
+}
+
+.device {
+    margin-top: 100px;
+}
+
+.user {
+    margin-top: 100px;
+}
